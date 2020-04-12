@@ -1,0 +1,11 @@
+<!--pages/test/test.wxml-->
+<view class='abc' id='abcd'>
+  wx是狗
+</view>
+<text>{{inputs}}</text>
+
+<input class='input-box' bindinput='bindinputs'></input>
+
+<!-- button会有默认的样式 -->
+<!-- button的外轮廓是通过伪元素来实现的 -->
+<button>按钮</button>
